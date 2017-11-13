@@ -26,7 +26,7 @@ Metalsmith(__dirname)
   ... // More plugins
 ```
 
-## Options
+## Parameters
 
 ### url - required
   ```String``` - Shows web URL to create the intensedebate comments.
