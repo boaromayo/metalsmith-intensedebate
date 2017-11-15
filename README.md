@@ -6,13 +6,13 @@ A plugin allowing [intensedebate](http://www.intensedebate.com) comments and cou
 
 ## Installation
 
-To install, use on node.js:
+To install, type this command on node.js:
 
     $ npm install metalsmith-intensedebate
   
 ## Usage (Javascript)
 
-To use, place `metalsmith-intensedebate` in `build.js` or the file where your static site is generated:
+To use, place `metalsmith-intensedebate` in `build.js` or the file where your site is generated:
 
 ```js
 const Metalsmith    = require('Metalsmith');
