@@ -2,6 +2,8 @@
 
 [![build-flag](https://travis-ci.org/boaromayo/metalsmith-intensedebate.svg)](https://travis-ci.org/boaromayo/metalsmith-intensedebate)
 
+<img src="/intensedebate-logo.jpg" alt="intensedebate-logo" width="225" height="150" />
+
 A plugin allowing [intensedebate](http://www.intensedebate.com) comments and counter in [Metalsmith](http://metalsmith.io/).
 
 ## Installation
