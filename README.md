@@ -53,4 +53,10 @@ Place into your `metalsmith.json` file like so:
   ```String``` - Account ID key for site to install comments, if given.
 
 ### shortname
-  ```String``` - shortname for your site to create intensedebate comments.
+  ```String``` - Shortname or intensedebate account name for your site to generate intensedebate comments.
+
+### post_id
+ ```String``` - ID key noted for a specific comment.
+
+### counter
+ ```String``` - class name for css file to load comment counter.
