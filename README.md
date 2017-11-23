@@ -1,6 +1,7 @@
 # metalsmith-intensedebate
 
 [![build-flag](https://travis-ci.org/boaromayo/metalsmith-intensedebate.svg)](https://travis-ci.org/boaromayo/metalsmith-intensedebate)
+[![GitHub license](https://img.shields.io/github/license/boaromayo/metalsmith-intensedebate.svg)](https://github.com/boaromayo/metalsmith-intensedebate)
 
 <img src="/intensedebate-logo.jpg" alt="intensedebate-logo" width="225" height="150" />
 
