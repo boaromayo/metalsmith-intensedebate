@@ -1,7 +1,6 @@
 # metalsmith-intensedebate
 
 [![build-flag](https://travis-ci.org/boaromayo/metalsmith-intensedebate.svg)](https://travis-ci.org/boaromayo/metalsmith-intensedebate)
-[![GitHub license](https://img.shields.io/github/license/boaromayo/metalsmith-intensedebate.svg)](https://github.com/boaromayo/metalsmith-intensedebate)
 
 <img src="/intensedebate-logo.jpg" alt="intensedebate-logo" width="225" height="150" />
 
@@ -24,7 +23,7 @@ const intensedebate = require('metalsmith-intensedebate');
 Metalsmith(__dirname)
   .use(intensedebate({
     url: 'your-site.org',
-    shortname: 'your-name',
+    acctname: 'your-name',
     acct_id: // Your id key here
   })); // Ideally, place before 'metalsmith-layouts'
 ```
@@ -50,11 +49,11 @@ Place into your `metalsmith.json` file like so:
 ### url - required
   ```String``` - Shows web URL to create the intensedebate comments.
 
-### acct_id - required
-  ```String``` - Account ID key for site to install comments, if given.
-
-### shortname
+### acctname - required
   ```String``` - Shortname or intensedebate account name for your site to generate intensedebate comments.
+
+### acct_id
+  ```String``` - Account ID key for site to install comments, if given.
 
 ### post_id
  ```String``` - ID key noted for a specific comment.
