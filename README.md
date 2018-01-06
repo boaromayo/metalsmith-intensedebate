@@ -22,9 +22,9 @@ const intensedebate = require('metalsmith-intensedebate');
 
 Metalsmith(__dirname)
   .use(intensedebate({
-    url: 'your-site.org',
-    acctname: 'your-name',
-    acct_id: // Your id key here
+    url: 'your-site.org', // Your website where you want to place comments
+    sitename: 'your-site' // The website where you registered IntenseDebate plugins at
+    acct_id: '324520302' // Your id key here
   })); // Ideally, place before 'metalsmith-layouts'
 ```
 
@@ -37,8 +37,7 @@ Place into your `metalsmith.json` file like so:
   "plugins": {
     "metalsmith-intensedebate": {
       "url": "your-site.org",
-      "shortname": "your-name",
-      "acct_id": "3205fsomething"
+      "acct_id": "3234235asomethig"
     }
   }
 }
@@ -49,11 +48,11 @@ Place into your `metalsmith.json` file like so:
 ### url - required
   ```String``` - Shows web URL to create the intensedebate comments.
 
-### acctname - required
-  ```String``` - Shortname or intensedebate account name for your site to generate intensedebate comments.
-
-### acct_id
+### acct_id - required
   ```String``` - Account ID key for site to install comments, if given.
+
+### sitename
+  ```String``` - IntenseDebate account name for your site to generate intensedebate comments.
 
 ### post_id
  ```String``` - ID key noted for a specific comment.
